@@ -28,7 +28,7 @@ h2 {
 nav {
 
     text-align: center;
-    border: #765729 inset 10px;
+    border: #765729 inset 8px;
     margin: -2px;
     box-shadow: inset rgba(0, 0, 0, .25);
 }
@@ -39,7 +39,6 @@ nav {
 #cover {
 
     float: left;
-    
     margin-right: 20px;
     margin-bottom: 20px;
     margin-left: 8px;
@@ -55,7 +54,7 @@ nav {
 body {
 
     background-color: #cdcac5;
-    border: #765729 inset 10px;
+    border: #765729 inset 8px;
     margin: 0px;
     font-size: 14pt;
 }
@@ -83,7 +82,7 @@ figcaption {
 
 aside {
 
-    border: #765729 inset 10px;
+    border: #765729 inset 8px;
     margin: -2px;
 
 }
@@ -100,4 +99,9 @@ aside {
 
     text-align: right;
     font-style: italic;
+}
+footer {
+
+    border: #765729 inset 8px;
+    margin: -2px;
 }
