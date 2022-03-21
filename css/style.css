@@ -32,6 +32,30 @@ nav {
     margin: -2px;
     box-shadow: inset rgba(0, 0, 0, .25);
 }
+nav li {
+    padding: 10px;
+    display: inline-block;
+    border-right: #765729 4px double;
+}
+nav li:last-child {
+    border: none;
+}
+nav a:link {
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #a52a2a;
+    text-decoration: underline;
+}
+nav a:active {
+    color: black;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #a52a2a;
+    text-decoration: underline;
+}
 
 /* book cover */
 /* https://stackoverflow.com/questions/19179424/how-to-wrap-text-around-an-image-using-html-css */
@@ -39,18 +63,17 @@ nav {
 #cover {
 
     float: left;
-    margin-right: 20px;
+   /* margin-right: 20px;
     margin-bottom: 20px;
-    margin-left: 8px;
-    width:50%;
-    max-width: 100%;
-}
-#cover img {
-
-    max-width: 100%;
+    margin-left: 8px; */
+    padding: 20px;
+    height: 300px;
 }
 /* body */
 
+p:first-of-type::first-line {
+    font-size: 18pt;
+}
 body {
 
     background-color: #cdcac5;
@@ -62,6 +85,9 @@ body p {
 
     margin: 10px;
 
+}
+:lang(fr), :lang(is), :lang(it), :lang(id) {
+    font-style: italic;
 }
 #cryptogram {
 
@@ -104,4 +130,21 @@ footer {
 
     border: #765729 inset 8px;
     margin: -2px;
+    text-align: center;
+}
+footer a:link {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #a52a2a;
+    text-decoration: underline;
+}
+footer a:active {
+    color: black;
+    text-decoration: none;
+}
+footer a:visited {
+    color: #a52a2a;
+    text-decoration: underline;
 }
